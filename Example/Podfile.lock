@@ -1,0 +1,22 @@
+PODS:
+  - CircleReferenceCheck (0.0.1)
+  - CollectionViewArray (0.1.0):
+    - MutableArrayListener
+  - MutableArrayListener (0.1.0):
+    - CircleReferenceCheck
+
+DEPENDENCIES:
+  - CollectionViewArray (from `../`)
+
+EXTERNAL SOURCES:
+  CollectionViewArray:
+    :path: ../
+
+SPEC CHECKSUMS:
+  CircleReferenceCheck: 5ef0dbaff301108a523f845bf81dfa9a12a83024
+  CollectionViewArray: 956f71b5375745eb858803ef9c9e5578585299f5
+  MutableArrayListener: 80566460c0f35ffe89d76a90ebb33adf7f413182
+
+PODFILE CHECKSUM: b54d82f70525a3c4b1703d17cfc1ef3eee3753e7
+
+COCOAPODS: 1.4.0.rc.1
