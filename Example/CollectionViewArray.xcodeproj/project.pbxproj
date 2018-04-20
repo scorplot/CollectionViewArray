@@ -62,11 +62,11 @@
 		857765BC29CC2E04E84A5A02 /* Pods-CollectionViewArray_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CollectionViewArray_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CollectionViewArray_Tests/Pods-CollectionViewArray_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		87D794FAF55570BF728A4725 /* Pods_CollectionViewArray_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CollectionViewArray_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8A9690FDA53F4D5B88A4D97A /* CollectionViewArray.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = CollectionViewArray.podspec; path = ../CollectionViewArray.podspec; sourceTree = "<group>"; };
-		B95DC4782230744B8F0AE887 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		8A9690FDA53F4D5B88A4D97A /* CollectionViewArray.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = CollectionViewArray.podspec; path = ../CollectionViewArray.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B95DC4782230744B8F0AE887 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		C7B0646337CBB6F2961F97C7 /* Pods-CollectionViewArray_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CollectionViewArray_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CollectionViewArray_Tests/Pods-CollectionViewArray_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		D932C7188E5906450524A6E1 /* Pods-CollectionViewArray_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CollectionViewArray_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-CollectionViewArray_Example/Pods-CollectionViewArray_Example.release.xcconfig"; sourceTree = "<group>"; };
-		DD620BADE5023E6D0E2EA599 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		DD620BADE5023E6D0E2EA599 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
