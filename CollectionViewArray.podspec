@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'CollectionViewArray'
-  s.version          = '0.1.1'
+  s.version          = '0.1.2'
   s.summary          = 'A usefull library make UICollectionView listener a array'
 
 # This description is used to generate tags and improve search results.
@@ -30,13 +30,23 @@ A usefull library make UICollectionView listener a array.
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'CollectionViewArray/Classes/**/*'
-  
+  # s.source_files = 'CollectionViewArray/Classes/**/*'
+
+  s.subspec 'Category' do |category|
+      category.source_files = 'CollectionViewArray/Classes/Category/**/*'
+      category.dependency 'CCUIModel'
+  end
+
+  s.subspec 'CollectionViewArray' do |collectionViewArray|
+      collectionViewArray.source_files = 'CollectionViewArray/Classes/CollectionViewArray/**/*'
+      collectionViewArray.dependency 'MutableArrayListener'
+  end
+
   # s.resource_bundles = {
   #   'CollectionViewArray' => ['CollectionViewArray/Assets/*.png']
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  s.dependency 'MutableArrayListener'
+  # s.dependency 'MutableArrayListener'
 end

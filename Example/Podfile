@@ -1,7 +1,8 @@
 use_frameworks!
 
 target 'CollectionViewArray_Example' do
-  pod 'CollectionViewArray', :path => '../'
+  pod 'CollectionViewArray/CollectionViewArray', :path => '../'
+  pod 'CollectionViewArray/Category', :path => '../'
 
   target 'CollectionViewArray_Tests' do
     inherit! :search_paths

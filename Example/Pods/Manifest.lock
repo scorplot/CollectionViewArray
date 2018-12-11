@@ -1,22 +1,34 @@
 PODS:
+  - CCUIModel (0.0.4):
+    - CircleReferenceCheck
   - CircleReferenceCheck (0.0.1)
-  - CollectionViewArray (0.1.0):
+  - CollectionViewArray/Category (0.1.2):
+    - CCUIModel
+  - CollectionViewArray/CollectionViewArray (0.1.2):
     - MutableArrayListener
   - MutableArrayListener (0.1.0):
     - CircleReferenceCheck
 
 DEPENDENCIES:
-  - CollectionViewArray (from `../`)
+  - CollectionViewArray/Category (from `../`)
+  - CollectionViewArray/CollectionViewArray (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - CCUIModel
+    - CircleReferenceCheck
+    - MutableArrayListener
 
 EXTERNAL SOURCES:
   CollectionViewArray:
-    :path: ../
+    :path: "../"
 
 SPEC CHECKSUMS:
+  CCUIModel: 520a8b4201282d4e9c485d4be297c2199c5b2201
   CircleReferenceCheck: 5ef0dbaff301108a523f845bf81dfa9a12a83024
-  CollectionViewArray: 956f71b5375745eb858803ef9c9e5578585299f5
+  CollectionViewArray: 7928175a619aeabec8923e19e12dd7a8b9f532a4
   MutableArrayListener: 80566460c0f35ffe89d76a90ebb33adf7f413182
 
-PODFILE CHECKSUM: b54d82f70525a3c4b1703d17cfc1ef3eee3753e7
+PODFILE CHECKSUM: ff15b45172805853b47c4f28c9d215686dc6e3ec
 
-COCOAPODS: 1.4.0.rc.1
+COCOAPODS: 1.5.3

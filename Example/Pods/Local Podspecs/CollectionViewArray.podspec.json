@@ -1,8 +1,8 @@
 {
   "name": "CollectionViewArray",
-  "version": "0.1.0",
-  "summary": "A short description of CollectionViewArray.",
-  "description": "TODO: Add long description of the pod here.",
+  "version": "0.1.2",
+  "summary": "A usefull library make UICollectionView listener a array",
+  "description": "A usefull library make UICollectionView listener a array.",
   "homepage": "https://github.com/scorplot/CollectionViewArray",
   "license": {
     "type": "MIT",
@@ -13,15 +13,29 @@
   },
   "source": {
     "git": "https://github.com/scorplot/CollectionViewArray.git",
-    "tag": "0.1.0"
+    "tag": "0.1.2"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "CollectionViewArray/Classes/**/*",
-  "dependencies": {
-    "MutableArrayListener": [
+  "subspecs": [
+    {
+      "name": "Category",
+      "source_files": "CollectionViewArray/Classes/Category/**/*",
+      "dependencies": {
+        "CCUIModel": [
 
-    ]
-  }
+        ]
+      }
+    },
+    {
+      "name": "CollectionViewArray",
+      "source_files": "CollectionViewArray/Classes/CollectionViewArray/**/*",
+      "dependencies": {
+        "MutableArrayListener": [
+
+        ]
+      }
+    }
+  ]
 }
