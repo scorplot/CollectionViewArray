@@ -1,6 +1,6 @@
 {
   "name": "CollectionViewArray",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "summary": "A usefull library make UICollectionView listener a array",
   "description": "A usefull library make UICollectionView listener a array.",
   "homepage": "https://github.com/scorplot/CollectionViewArray",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/scorplot/CollectionViewArray.git",
-    "tag": "0.1.2"
+    "tag": "0.1.3"
   },
   "platforms": {
     "ios": "8.0"
